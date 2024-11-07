@@ -61,10 +61,39 @@ body {
     height: 40px;
     border: none;
     top: 40px;
+    box-shadow: 21px 24px 0 rgda(0,0,0,0.1);
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
 }
 
 
 .button1{
     display: none;
     font-size: medium;
+}
+
+.registration {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.enter {
+    margin: 0 200px 0 200px;
+    height: 45px;
+}
+
+input {
+    width: 100%;
+}
+
+.pink {
+    background-color: lightcoral;
+    border-radius: 4px;
+    height: 30px;
+    width: 100%;
+    border: 20px;
 }
